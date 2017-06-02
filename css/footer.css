@@ -1,0 +1,172 @@
+/*----------------------------------footer---------------------------------------*/
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f4f4f4;
+}
+
+.f-footer-up {
+  width: 100% !important;
+  height: 60px;
+  background-color: #333;
+  margin: 0 auto;
+}
+
+.f-footer-up ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.f-footer-up ul li {
+  width: 20%;
+  float: left;
+  padding-left: 40px;
+  color: #fff;
+  line-height: 60px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.f-footer-up ul li em {
+  vertical-align: middle;
+}
+
+.f-footer-up ul li span {
+  display: inline-block;
+  padding-left: 11px;
+}
+
+.icon1 {
+  display: inline-block;
+  overflow: hidden;
+  background: url(../imgs/icons.png) no-repeat;
+}
+
+.icon-realthing {
+  width: 45px;
+  height: 44px;
+  background-position: -195px -145px;
+}
+
+.icon-start {
+  width: 45px;
+  height: 44px;
+  background-position: -242px -109px;
+}
+
+.icon-booking {
+  width: 45px;
+  height: 44px;
+  background-position: -195px -53px;
+}
+
+.icon-quick {
+  width: 45px;
+  height: 44px;
+  background-position: -195px -99px;
+}
+
+.icon-serve {
+  width: 45px;
+  height: 44px;
+  background-position: -242px -63px;
+}
+
+.f-footer-txt {
+  padding: 40px 0;
+  background-color: #f4f4f4;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.f-footer-txt .f-1 h4, .f-footer-txt .f-2 h4 {
+  margin-top: -2px;
+  padding-bottom: 15px;
+  line-height: 20px;
+}
+
+.f-footer-txt .f-1 h4 a, .f-footer-txt .f-2 h4 a {
+  font-size: 16px;
+  line-height: 35px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.f-footer-left {
+  float: left;
+  box-sizing: border-box;
+  padding-left: 50px;
+  width: 50%;
+}
+
+.f-hot-line {
+  width: 450px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.icon-phone-detail {
+  width: 176px;
+  height: 39px;
+  background-position: -1px -64px;
+}
+
+.icon-kf-bottom {
+  width: 140px;
+  height: 40px;
+  margin-left: 68px;
+  cursor: pointer;
+  background-position: -1px -202px;
+}
+
+.f-footer-brand {
+  padding-top: 10px;
+  line-height: 20px;
+  color: #666666;
+  font-size: 12px;
+}
+
+.f-footer-right {
+  float: right;
+  box-sizing: border-box;
+  padding-left: 50px;
+  width: 50%;
+}
+
+.f-footer-right .f-1, .f-footer-right .f-2, .f-footer-right .f-3, .f-footer-right .f-4 {
+  float: left;
+  width: 25%;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  color: #666666;
+}
+
+.f-footer-right a {
+  color: #333;
+  text-decoration: none;
+}
+
+.f-footer-right .f-1 li, .f-footer-right .f-2 li {
+  line-height: 20px;
+}
+
+.f-footer-right .f-3 span, .f-footer-right .f-4 span {
+  display: block;
+  padding-top: 7px;
+}
+
+.f-footer-right .f-3 img, .f-footer-right .f-4 img {
+  margin-left: 20px;
+}
+
+.f-footer-certs {
+  padding: 185px 260px;
+  text-align: center;
+}
+
+.f-footer-certs span {
+  float: left;
+  padding: 0 30px;
+}

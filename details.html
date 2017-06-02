@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>详情页</title>
+		<link rel="stylesheet" type="text/css" href="css/details.css">
+		<link rel="stylesheet" type="text/css" href="css/public.css">
+		<link rel="shortcut icon" type="image/x-icon" href="http://localhost/mianshuiyigou365/src/imgs/favicon.ico" media="screen"/> 
+	</head>
+	<body>
+		<!-- top -->
+		<div class="top">
+			
+		</div>
+		
+		<!-- 页面路径 -->
+		<div class="path-slide">
+			<span class="left">
+		
+				<a href="javascript:;" title="首页" class="link-black">首页</a>
+				>
+				<a href="javascript:;" title="箱包" class="link-black">箱包</a>
+				>
+				<a href="javascript:;" title="女包" class="link-black">女包</a>
+				>
+				<a href="javascript:;" title="女士单肩包" class="link-black">女士单肩包</a>
+				>
+				<i>黑色真皮长款女士单肩包DPDF424</i>
+			</span>
+		</div>
+		<div class="product-list">
+			<div class="glass">
+				<div class="glass-main">
+					<div class="middle">
+						<img src="imgs/mid1.jpg">
+						<div class="filter"></div>
+					</div>
+					<div class="large">
+						<img src="imgs/mid1.jpg">
+					</div>
+				</div>
+				<div class="glass-slide">
+					<span class="arrow arrow-left"></span>
+					<span class="arrow arrow-right"></span>
+					<div class="slide-main">
+						<div class="img-wrap">
+							<img class="active" src="imgs/small1.jpg" data-url="imgs/mid1.jpg">
+							<img src="imgs/small2.jpg" data-url="imgs/mid2.jpg">
+							<img src="imgs/small3.jpg" data-url="imgs/mid3.jpg">
+							<img src="imgs/small4.jpg" data-url="imgs/mid4.jpg">
+							<img src="imgs/small5.jpg" data-url="imgs/mid5.jpg">
+							<img src="imgs/small6.jpg" data-url="imgs/mid6.jpg">
+							<img src="imgs/small2.jpg" data-url="imgs/mid2.jpg">
+							<img src="imgs/small3.jpg" data-url="imgs/mid3.jpg">
+							<img src="imgs/small4.jpg" data-url="imgs/mid4.jpg">
+							<img src="imgs/small5.jpg" data-url="imgs/mid5.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="per-item">
+				<h3 class="goods-title">
+					<a class="orange" href="javascript:;">VERSACE范思哲</a>
+					<br>
+					黑色真皮长款女士单肩包DPDF424
+				</h3>
+				<div class="price">
+					<span class="title">免税价：</span>
+					<span class="price-wrap">
+						￥
+						<span class="goods-price">5725</span>
+					</span>
+					<del>市场价：￥7800</del>
+				</div>
+				<dl class="tb-prop color clearfix">
+					<dt class="tb-title">颜色</dt>
+					<dd class="tb-con">
+						<ul class="tab-content color-content">
+							<li class="tb-con-item selected" data-id="1000101">
+								<a href="javascript:;">黑色</a>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="tb-prop amount clearfix">
+					<dt class="tb-title">数量</dt>
+					<dt class="tb-con">
+						<div class="amount-item amount-op">
+							<input type="text" class="amount-input" value="1">
+							<a href="javascript:;" class="amount-increase">+</a>
+							<a href="javascript:;" class="amount-decrease">-</a>
+						</div>
+						<span class="amount-item">件</span>
+						<div class="amount-item stock">
+							商品数量还有<span class="stock-num">999</span>件
+						</div>
+					</dt>
+				</dl>
+				<dl class="tb-prop size clearfix">
+					<dt class="tb-title">&nbsp;</dt>
+					<dt class="tb-con">
+						<div class="user-option option-bynow">
+							<a href="#">立即购买</a>
+						</div>
+						<div class="user-option option-addCart">
+							<a href="#">加入购物车</a>
+						</div>
+					</dt>
+				</dl>
+			</div>
+		</div>
+		<!-- footer -->
+		<div class="footer1">
+			
+		</div>
+		<script id="type-list" type="text/html">
+			{{each color as v k}}
+				<li class="tb-con-item" data-id="{{k}}">
+					<a href="javascript:;">{{v.type}}</a>
+				</li>
+			{{/each}}
+		</script>
+		<script type="text/javascript" src="js/libs/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/js/header.js"></script>
+		<script data-main="js/js/details" src="js/js/require.js" defer async="true"></script>
+	</body>
+</html>

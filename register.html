@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>注册页</title>
+		<link rel="stylesheet" type="text/css" href="css/register.css">
+		<link rel="stylesheet" type="text/css" href="css/public.css">
+		<link rel="shortcut icon" type="image/x-icon" href="http://localhost/mianshuiyigou365/src/imgs/favicon.ico" media="screen"/> 
+	</head>
+	<body>
+		<div id="form-header" class="header">
+			<div class="logo-con w">
+				<a href="javascript:;" class="logo">
+					<img src="imgs/2.jpg">
+				</a>
+				<div class="logo-title">欢迎注册</div>
+				<div class="have-account">
+					已有账号？
+					<a href="login.html" target="_blank">请登录</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="container w">
+			<div class="main">
+				<div class="reg-form fl">
+					<form>
+						<div class="form-item form-item-account">
+							<label>用 户 名</label>
+							<input type="text" name="regName" class="field account" placeholder="您的账号名和登录名">
+						</div>
+						<div class="input-tip con1">
+							<span></span>
+						</div>
+						<div class="form-item">
+							<label>设 置 密 码</label>
+							<input type="password" name="pwd" class="field password" placeholder="建议至少使用两种字符组合">
+						</div>
+						<div class="input-tip con2">
+							<span></span>
+						</div>
+						<div class="form-item">
+							<label>确 认 密 码</label>
+							<input type="password" name="pwdRepeat" class="field npassword" placeholder="请再次输入密码">
+						</div>
+						<div class="input-tip con3">
+							<span></span>
+						</div>
+						<div class="item-phone-wrap">
+							<div class="form-item form-item-phone">
+								<label>手 机 号</label>
+								<input type="text" name="phone" class="field phone" placeholder="建议使用常用手机">
+							</div>
+							<div class="input-tip con4">
+								<span></span>
+							</div>
+							<div class="orEmail">
+								<a href="javascript:;">邮箱验证</a>
+							</div>
+						</div>
+						<div class="form-item form-item-authcode">
+							<label>验 证 码</label>
+							<input type="text" name="authCode" placeholder="请输入验证码" class="field form-authcode">
+							<div class="code">换一换</div>
+						</div>
+						<div class="input-tip con5">
+							<span></span>
+						</div>
+						<div class="form-item form-item-phonecode">
+							<label>手机验证码</label>
+							<input type="text" name="phoneCode" placeholder="请输入手机验证码" class="field phonecode">
+							<button class="btn">获取验证码</button>
+						</div>
+						<div class="input-tip con6">
+							<span></span>
+						</div>
+						<div class="form-agreen">
+							<div>
+								<input type="checkbox" name="agreen" chrecked>
+								阅读并同意
+								<a href="javascript:;">《免税易购用户这侧协议》</a>
+								<a href="javascript:;" class="blue">《隐形政策》</a>
+							</div>
+							<div class="input-tip con7">
+								<span></span>
+							</div>
+						</div>
+						<div>
+							<button type="submit" class="btn-register">立即注册</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="img">
+				<img src="imgs/sqq.jpg">
+			</div>
+		</div>
+		<script data-main="js/js/register" src="js/js/require.js" defer async="true"></script>
+	</body>
+</html>

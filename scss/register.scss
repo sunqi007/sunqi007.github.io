@@ -1,0 +1,158 @@
+@charset "utf-8";
+.header {
+	height: 110px;
+	background: url(../imgs/headbg.jpg) repeat-x left bottom;
+	.logo {
+		width: 160px;
+		height: 50px;
+		float: left;
+		margin-top: 24px;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.logo-title {
+		float: left;
+		height: 34px;
+		line-height: 34px;
+		font-size: 24px;
+		color: #333;
+		padding-left: 30px;
+		margin-top: 34px;
+	}
+	.have-account {
+		font-size: 16px;
+		float: right;
+		margin-top: 55px;
+		color: #999;
+	}
+}
+.w {
+	width: 1210px;
+	margin: 0 auto;
+}
+.main {
+	margin: 50px auto 60px;
+	width: 830px;
+}
+.reg-form {
+	width: 400px;
+}
+.fl {
+	float: left;
+}
+form {
+	display: block;
+	.input-tip {
+		span {
+			display: block;
+			height: 20px;
+			color: red;
+		}
+	}
+}
+.form-item {
+	position: relative;
+	border: 1px solid #ddd;
+	width: 398px;
+	height: 52px;
+	label {
+		float: left;
+		width: 90px;
+		height: 52px;
+		line-height: 52px;
+		padding-left: 20px;
+		font-size: 16px;
+	}
+	.field {
+		border: 0;
+		font-size: 14px;
+		width: 190px;
+		height: 19px;
+		padding-bottom: 11px;
+		padding-left: 20px;
+		padding-top: 16px;
+	}
+	.form-authcode {
+		width: 150px;
+	}
+	.phonecode {
+		width: 150px;
+	}
+	.code {
+		position: absolute;
+		right: 3px;
+		top: 3px;
+		width: 110px;
+		height: 46px;
+		cursor: pointer;
+		text-align: center;
+		line-height: 46px;
+		font-size: 16px;
+	}
+}
+.form-item-account {
+	z-index: 13;
+}
+.input-tip {
+	height: 27px;
+	color: #c5c5c5;
+	font-size: 12px;
+	padding-top: 5px;
+}
+.item-phone-wrap {
+	height: 86px;
+	position: relative;
+	z-index: 2;
+	.orEmail {
+		position: absolute;
+		right: 0;
+		bottom: 6px;
+		font-size: 12px;
+		a {
+			color: #00f;
+		}
+	}
+}
+.btn {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 110px;
+	height: 46px;
+	border: 0;
+	background-color: #f2f2f2;
+	color: #333;
+}
+.form-agreen {
+	color: #333;
+	font-size: 12px;
+	word-wrap: break-word;
+	white-space: nowrap;
+	input {
+		width: 18px;
+		height: 18px;
+		border: 1px solid #cfd1d3;
+		vertical-align: text-top;
+	}
+	a {
+		color: #38f;
+	}
+}
+.btn-register {
+	width: 100%;
+	height: 54px;
+	color: #fff;
+	background-color: #e22;
+	border: 0;
+	font-size: 16px;
+}
+.img {
+	float: right;
+	width: 500px;
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}

@@ -1,0 +1,62 @@
+[
+	{
+		"img":"imgs/goods1.jpg",
+		"name":"ECTEE LAUDER雅诗兰黛",
+		"type":"鲜活亮采晚霜50ml",
+		"price":"￥436.6"
+	},
+	{
+		"img":"imgs/goods2.jpg",
+		"name":"SU:M 37°苏秘37°",
+		"type":"时间能量套装 160ml 130ml 50ml 20ml 20ml 5ml 10ml 40ml",
+		"price":"￥444.4"
+	},
+	{
+		"img":"imgs/goods3.jpg",
+		"name":"SK-II",
+		"type":"肌源赋活修护精华霜80g 大红瓶 抗衰老 淡化细纹",
+		"price":"￥774.4"
+	},
+	{
+		"img":"imgs/goods4.jpg",
+		"name":"WHOO后",
+		"type":"后拱辰享气韵生系列套装 6pcs",
+		"price":"￥884.4"
+	},
+	{
+		"img":"imgs/goods5.jpg",
+		"name":"WHOO后",
+		"type":"拱辰享水水沄套装 150ml 110ml 30ml 15ml 2g 4g",
+		"price":"￥765.6"
+	},
+	{
+		"img":"imgs/goods6.jpg",
+		"name":"SK-II",
+		"type":"免税店独家精选-紧致抗皱系列 15g 80g",
+		"price":"￥1130.8"
+	},
+	{
+		"img":"imgs/goods7.jpg",
+		"name":"Elizabeth Arden伊丽莎白·雅顿",
+		"type":"超时空金致导航精华液 28ml",
+		"price":"￥480"
+	},
+	{
+		"img":"imgs/goods8.jpg",
+		"name":"CLINIQUE倩碧",
+		"type":"明肌净透水2号 (温和洁肤水2号) 400ml",
+		"price":"￥184.8"
+	},
+	{
+		"img":"imgs/goods9.jpg",
+		"name":"WHOO后",
+		"type":"秘贴自润面霜套装 70ml 25ml 25ml 2g",
+		"price":"￥1123.76"
+	},
+	{
+		"img":"imgs/goods10.jpg",
+		"name":"WHOO后",
+		"type":"秘贴焕然新生精华液套装 45ml 20ml 25ml 25ml 8ml",
+		"price":"￥959.2"
+	}
+]

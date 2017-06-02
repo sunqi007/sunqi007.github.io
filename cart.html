@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购物车页</title>
+		<link rel="stylesheet" type="text/css" href="css/cart.css">
+		<link rel="stylesheet" type="text/css" href="css/public.css">
+		<link rel="shortcut icon" type="image/x-icon" href="http://localhost/mianshuiyigou365/src/imgs/favicon.ico" media="screen"/> 
+	</head>
+	<body>
+		<!-- top -->
+		<div class="top">
+			
+		</div>
+		<!-- path -->
+		<section class="section">
+			<div class="lactopp">
+				<div class="left">
+					<img src="imgs/gouwu.jpg">
+				</div>
+			</div>
+			<div class="cart-alert-block">
+				自然年内非海南省居民免税品累计限购16000元，海南省居民免税品限购8000元
+			</div>
+			<div style="height: 55px; margin-bottom: 10px;">
+				<div class="bg">
+					<div class="block-deliver">
+						<span class="sq">离岛地点：</span>
+						<input type="hidden" name="airport" value="1">
+						<select class="select-deliver">
+							<option>海口美兰机场</option>
+							<option>三亚凤凰机场</option>
+							<option>海口火车站</option>
+							<option>三亚或东方火车站</option>
+						</select>
+						<span class="deliver-notice">
+							<span class="color-orange">下单后最快6小时可提货</span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="cart-main-title">
+				<ul class="clearfix">
+					<li class="td td-checkbox">
+						<input type="checkbox" class="select-all-btn">
+						<span>全选</span>
+					</li>
+					<li class="td td-gname">
+						<div class="td-inner">商品信息</div>
+					</li>
+					<li class="td td-gstyle">商品属性</li>
+					<li class="td td-gprice">单价</li>
+					<li class="td td-gamount">商品数量</li>
+					<li class="td td-gmoney">金额</li>
+					<li class="td td-option">操作</li>
+				</ul>
+			</div>
+			<div class="cart-main-content">
+	
+			</div>
+			<div class="cart-option">
+				<div class="options">
+					<div class="options-item select-all">
+						<input type="checkbox" class="select-all-btn">
+						<span>全选</span>
+					</div>
+					<div class="options-item delete">
+						<a href="#">删除</a>
+					</div>
+				</div>
+				<div class="cart-info">
+					<div class="info-item goods-money">
+						购物车金额：<span class="user-goods-money">0.00</span>
+					</div>
+					<div class="info-item go-pay">确认订单</div>
+				</div>
+			</div>
+		</section>
+		<!-- footer -->
+		<div class="footer1">
+			
+		</div>
+		<script type="text/html" id="cart-list">
+			<!-- cart  data -->
+			{{each cart as v k}}
+				<ul class="cart-goods-item clearfix" data-id="{{k}}">
+					<li class="td td-checkbox">
+						<input type="checkbox" />
+					</li>
+					<li class="td td-gname">
+						<div class="td-inner clearfix">
+							<div class="goods-img">
+								<img src="{{data.goods_pic_small}}">
+							</div>
+							<div class="goods-name">
+								<a href="#">{{data.goods_name}}</a>
+							</div>
+						</div>
+					</li>
+					<li class="td td-gstyle">
+						<div class="gcolor">
+							<span class="">选择：</span>
+							<span class="color-type">{{data.color[k].type}}</span>
+						</div>
+					</li>
+					<li class="td td-gprice">
+						<span>￥</span>
+						<span class="goods-price">{{data.color[k].sale_price}}</span>
+					</li>
+					<li class="td td-gamount">
+						<div class="td-amount-wrapper" data-stock="{{data.color[k].stock}}">
+							<span class="amount-option amount-decrease">-</span>
+							<input class="amount-option amount-input" type="text" value="{{v.amount}}">
+							<span class="amount-option amount-increase">+</span>
+						</div>
+					</li>
+					<li class="td td-gmoney">
+						<span>￥</span>
+						<span class="goods-money">{{data.color[k].sale_price * v.amount}}</span>
+					</li>
+					<li class="td td-option">
+						<a href="#" class="delete">商品删除</a>
+					</li>
+				</ul>
+			{{/each}}
+		</script>
+		<script type="text/javascript" src="js/libs/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/js/header.js"></script>
+		<script data-main="js/js/cart" src="js/js/require.js" defer async="true"></script>
+	</body>
+</html>

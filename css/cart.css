@@ -1,0 +1,258 @@
+/*--------------------------top---------------------------------------*/
+#nav-items {
+  display: none !important;
+}
+
+/*--------------------------path-----------------------------------*/
+.section {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.section li.td-checkbox {
+  width: 46px;
+}
+
+.section li.td-checkbox input {
+  vertical-align: -2px;
+}
+
+.section li.td {
+  float: left;
+  width: 120px;
+  margin-left: 10px;
+}
+
+.section li.td-gname {
+  width: 260px;
+}
+
+.section li.td-gstyle {
+  width: 145px;
+  padding-right: 15px;
+}
+
+.section li.td-gprice {
+  width: 80px;
+}
+
+.section li.td-gamount {
+  width: 90px;
+}
+
+.section li.td-gmoney {
+  width: 90px;
+}
+
+.section li.td-option {
+  width: 90px;
+}
+
+.section .cart-goods-item .td-checkbox {
+  width: 50px;
+}
+
+.section .cart-goods-item {
+  position: relative;
+  padding: 10px 0;
+  margin-top: 35px;
+  border: 1px solid #ccc;
+  height: 100px;
+}
+
+.section .cart-goods-item .td-inner .goods-img {
+  float: left;
+  width: 105px;
+  height: 105px;
+}
+
+.section .cart-goods-item .td-inner .goods-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.section .cart-goods-item .td-gname .goods-name {
+  margin-left: 80px;
+}
+
+.section .cart-goods-item .td-gname .goods-name a {
+  color: #3c3c3c;
+}
+
+.section .cart-goods-item .td-gprice {
+  position: absolute;
+  right: 310px;
+}
+
+.section .cart-goods-item .td-gamount {
+  position: absolute;
+  right: 210px;
+}
+
+.section .cart-goods-item .td-gmoney {
+  position: absolute;
+  right: 110px;
+}
+
+.section .cart-goods-item .td-option {
+  position: absolute;
+  right: 10px;
+}
+
+.section .cart-goods-item .td-amount-wrapper {
+  width: 77px;
+  height: 80px;
+  position: relative;
+}
+
+.section .cart-goods-item .td-amount-wrapper .amount-option {
+  position: absolute;
+  top: 0;
+  width: 17px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border: 1px solid #ccc;
+  color: #000;
+}
+
+.section .cart-goods-item .td-amount-wrapper .amount-decrease {
+  left: 0;
+  cursor: pointer;
+}
+
+.section .cart-goods-item .td-amount-wrapper .amount-input {
+  width: 38px;
+  left: 19px;
+  border-color: #888;
+}
+
+.section .cart-goods-item .td-amount-wrapper .amount-increase {
+  right: 0;
+  cursor: pointer;
+}
+
+.section .cart-goods-item .td-gmoney {
+  color: #f60;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.section .cart-goods-item .gcolor {
+  margin-left: 60px;
+}
+
+.lactopp {
+  width: 953px;
+  height: 63px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.lactopp .left {
+  width: 900px;
+  height: 63px;
+  float: right;
+  margin-right: 27px;
+}
+
+.lactopp .left img {
+  width: 100%;
+  height: 54px;
+}
+
+.cart-alert-block {
+  position: relative;
+  width: 958px;
+  height: 30px;
+  margin: 10px auto;
+  line-height: 30px;
+  color: #666;
+  text-align: right;
+}
+
+.block-deliver {
+  width: 960px;
+  background-color: #f6f6f6;
+  border: 1px solid #eee;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.block-deliver .sq {
+  font-weight: bold;
+  color: #000;
+}
+
+.select-deliver {
+  color: #333;
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid #999;
+}
+
+.deliver-notice {
+  color: #838383;
+}
+
+.deliver-notice .color-orange {
+  color: #ee761a;
+}
+
+.cart-main-title {
+  width: 960px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 50px;
+  background-color: #f6f6f6;
+}
+
+.cart-option {
+  height: 50px;
+  line-height: 50px;
+  margin-top: 30px;
+  background-color: #f6f6f6;
+}
+
+.cart-option .options {
+  float: left;
+}
+
+.cart-option .options .options-item {
+  float: left;
+  margin: 0 30px 0 10px;
+}
+
+.cart-option .cart-info {
+  float: right;
+}
+
+.cart-option .cart-info .info-item {
+  float: left;
+  margin-left: 20px;
+}
+
+.cart-option .cart-info .info-item span {
+  color: #fc764d;
+  font-size: 24px;
+}
+
+.cart-option .cart-info .go-pay {
+  width: 120px;
+  text-align: center;
+  background-color: #aaa;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 10px;
+  cursor: not-allowed;
+}
+
+.cart-option .cart-info .go-pay.can-pay {
+  background-color: #fc805a;
+  cursor: pointer;
+}
+
+/*--------------------------footer-----------------------------------*/

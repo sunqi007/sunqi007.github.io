@@ -1,0 +1,26 @@
+[
+	{
+		"name":"后",
+		"type":"天气丹花献光彩紧颜滋养乳101ml",
+		"price":"￥607.2",
+		"img":"imgs/good1.jpg"
+	},
+	{
+		"name":"后",
+		"type":"秘贴清颜顺滑精华液套装85ml*2",
+		"price":"￥881.7",
+		"img":"imgs/good2.jpg"
+	},
+	{
+		"name":"资生堂",
+		"type":"百优全新精纯乳霜50ml",
+		"price":"￥426.8",
+		"img":"imgs/good3.jpg"
+	},
+	{
+		"name":"兰芝",
+		"type":"兰芝新水酷特润精华露60ml",
+		"price":"￥215",
+		"img":"imgs/good4.jpg"
+	}
+]

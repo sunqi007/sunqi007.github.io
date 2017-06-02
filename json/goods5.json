@@ -1,0 +1,26 @@
+[
+	{
+		"name":"科莱丽",
+		"type":"声波净颜仪(便携型)白色版",
+		"price":"￥982.08",
+		"img":"imgs/good21.jpg"
+	},
+	{
+		"name":"博朗",
+		"type":"欧乐B成人电动牙刷4010",
+		"price":"￥107",
+		"img":"imgs/good22.jpg"
+	},
+	{
+		"name":"高培",
+		"type":"360全脑益智幼儿配方3段奶粉800g",
+		"price":"￥268",
+		"img":"imgs/good23.jpg"
+	},
+	{
+		"name":"乐高",
+		"type":"城市系列直道及十字路口底板1*10pcs",
+		"price":"￥65.4",
+		"img":"imgs/good24.jpg"
+	}
+]

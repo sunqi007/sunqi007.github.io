@@ -1,0 +1,256 @@
+.s {
+  width: 990px;
+  height: 81px;
+  margin: 0 auto;
+}
+
+.logo img {
+  float: left;
+  margin: 10px 0 10px 55px;
+}
+
+.logo span {
+  float: left;
+  color: #000;
+  font-size: 24px;
+  margin: 30px 0 0 10px;
+}
+
+.content {
+  width: 100%;
+}
+
+.content .bg {
+  position: relative;
+  height: 475px;
+  background-color: #57a1ff;
+}
+
+.content .bg img {
+  position: absolute;
+  top: 0;
+  left: 180px;
+}
+
+.login-form {
+  position: absolute;
+  top: 124px;
+  right: 136px;
+  width: 346px;
+  height: 361px;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 4;
+}
+
+.login-form .login-tab-t {
+  height: 55px;
+  width: 100%;
+  text-align: center;
+  line-height: 55px;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.login-form .login-tab-t a {
+  color: #666;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.login-form .login-tab-t a:hover {
+  color: #e4393c;
+}
+
+.mc {
+  width: 360px;
+  height: 192px;
+  position: absolute;
+  top: 197px;
+  right: 101px;
+  z-index: 4;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+}
+
+.form .item-fore1, .form .item-fore2 {
+  width: 304px;
+  height: 38px;
+  border: 1px solid #bdbdbd;
+}
+
+.form .item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form .item .login-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 38px;
+  height: 38px;
+  border-right: 1px solid #bdbdbd;
+  background: url(../imgs/icon.png) no-repeat;
+}
+
+.form .item .name-label {
+  background-position: 0 0;
+}
+
+.form .item .pwd-label {
+  background-position: -48px 0;
+}
+
+.form .txt {
+  line-height: 18px;
+  height: 18px;
+  border: 0;
+  padding: 10px 0 10px 50px;
+  width: 254px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.form .safe {
+  position: relative;
+  color: #666;
+}
+
+.form .safe .forget-pw-safe {
+  position: absolute;
+  right: 55px;
+  top: 0;
+}
+
+.form .login-btn {
+  width: 99%;
+  height: 32px;
+  margin: 55px auto;
+  position: relative;
+  text-align: center;
+}
+
+.form .login-btn .btn {
+  width: 302px;
+  height: 31px;
+  display: block;
+  line-height: 31px;
+  border: 1px solid #e85356;
+  background-color: #e4393c;
+  color: #fff;
+  font-size: 20px;
+}
+
+.coagent {
+  height: 50px;
+  position: absolute;
+  top: 434px;
+  right: 140px;
+  z-index: 5;
+  line-height: 50px;
+  border-top: 1px solid #f4f4f4;
+  background-color: #fcfcfc;
+}
+
+.coagent ul {
+  display: block;
+  width: 346px;
+  height: 50px;
+  margin-left: -5px;
+}
+
+.coagent li {
+  float: left;
+  margin-left: 12px;
+}
+
+.coagent li a.pdl {
+  display: inline-block;
+  position: relative;
+  padding-left: 24px;
+}
+
+.coagent li a.pdl span {
+  margin-top: 10px;
+}
+
+.coagent li a.pdl b {
+  width: 19px;
+  height: 18px;
+  display: block;
+  background: url(../imgs/QQ-weixin.png) no-repeat;
+  margin: 0 auto;
+  position: absolute;
+  float: left;
+  left: 0;
+  top: 16px;
+}
+
+.coagent li a.pdl b.QQ-icon {
+  background-position: 0 0;
+}
+
+.coagent li a.pdl b.weixin-icon {
+  background-position: -20px 0;
+}
+
+.coagent li .line {
+  color: #ccc;
+  padding: 0 10px;
+}
+
+.coagent a {
+  color: #666;
+}
+
+.coagent .extra-r {
+  float: right;
+}
+
+.coagent .extra-r a:hover {
+  text-decoration: underline;
+}
+
+.coagent .regist-link {
+  color: #b61d1d;
+  font-size: 14px;
+}
+
+.coagent .regist-link a {
+  color: #b61d1d;
+}
+
+.coagent .regist-link b {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  background: url(../imgs/icon.png) -104px -75px no-repeat;
+  vertical-align: middle;
+}
+
+.w {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.footer {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.footer .links a {
+  margin: 0 10px;
+}
+
+.footer .copyright {
+  margin: 10px 0;
+}
+
+.footer a:hover {
+  color: #b61d1d;
+  text-decoration: underline;
+}
